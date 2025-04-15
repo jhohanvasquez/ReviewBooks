@@ -1,0 +1,26 @@
+<mat-card
+  class="book-card mat-elevation-z2"
+  [class.on-book-card-hover]="isActive"
+  (mouseover)="isActive = true"
+  (mouseout)="isActive = false"
+>
+  <a
+    [routerLink]="['/books/details/', book.bookId]"
+    matTooltip="{{ book.title }}"
+    aria-label="Review title"
+    ><img
+      class="preview-image"
+      mat-card-image
+      src="/Upload/{{ book.coverFileName }}"
+      alt="Review cover image"
+    />
+  </a>
+  <mat-card-content>
+    <div class="card-title my-2">
+      <a [routerLink]="['/books/details/', book.bookId]">
+        <strong>{{ book.title }}</strong>
+      </a>
+    </div>
+    <p>{{ book.description }}</p>
+  </mat-card-content>
+</mat-card>
