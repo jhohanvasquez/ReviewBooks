@@ -4,4 +4,4 @@
 * Angular 19
 * SqlServer
 * Proxy
-* Scrip base de datos en carptea ScriptBD
+* Script base de datos en carptea ScriptBD
