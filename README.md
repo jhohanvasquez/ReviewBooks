@@ -1,4 +1,4 @@
-# ReviewBooks - Es un reto pendiente - Me encanta
+# ReviewBooks - Reto Pendiente
 
 Codigo descargado para realizar laboratorio, analisis y modificacion buscando entender su arquitectura.
 
