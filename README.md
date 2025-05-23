@@ -1,6 +1,6 @@
 # ReviewBooks
 
-Codigo descagado para realizar laboratorio, analisis y modificacion buscando entender su arquitectura.
+Codigo descargado para realizar laboratorio, analisis y modificacion buscando entender su arquitectura.
 
 * .NET 9.0
 * Angular 19
